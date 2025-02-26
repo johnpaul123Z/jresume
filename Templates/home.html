@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jaz's Professional Profile</title>
+  <style>
+    /* Animated Background */
+    body {
+      font-family: 'Helvetica', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #000;
+      line-height: 1.6;
+      background: linear-gradient(270deg, #000, #fff, #000);
+      background-size: 600% 600%;
+      animation: gradientAnimation 15s ease infinite;
+    }
+    @keyframes gradientAnimation {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      overflow: hidden;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.95); /* Light overlay for content readability */
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    /* Header */
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px 0;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    /* Sections */
+    section {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border: 1px solid #000;
+      border-radius: 5px;
+    }
+    section h2 {
+      margin-top: 0;
+      border-bottom: 1px solid #000;
+      padding-bottom: 5px;
+    }
+    /* Photo Section */
+    .photo-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .photo-container img {
+      max-width: 200px;
+      border: 3px solid #000;
+      border-radius: 50%;
+    }
+    /* Resume Link */
+    .resume-link {
+      text-align: center;
+      margin-top: 15px;
+    }
+    .resume-link a {
+      display: inline-block;
+      background: #000;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .resume-link a:hover {
+      background: #333;
+    }
+    /* Footer */
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Jaz's Professional Profile</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#resume">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="photo-container">
+        <img src="https://via.placeholder.com/200" alt="Profile Photo" />
+      </div>
+      <p>Hello! I am Jaz, a dedicated professional passionate about technology and continuous learning. I thrive on solving challenges and driving innovation. This page provides an overview of my background, education, and professional experience.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>University Name</strong> – (Graduation Year)</li>
+        <li><strong>High School Name</strong> – High School Diploma (Graduation Year)</li>
+      </ul>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <div class="resume-link">
+        <a href="https://example.com/resume.pdf" target="_blank">Download My Resume</a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Jaz. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
