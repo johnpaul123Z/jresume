@@ -1,6 +1,6 @@
 from flask import Flask,render_template
 app = Flask(__name__)
-
+#ininnkcsnd
 @app.route("/")
 def home():
     return render_template("home.html")
